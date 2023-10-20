@@ -76,7 +76,7 @@ const ChatHistory: NextPageWithLayout = () => {
       <div className="flex h-screen flex-row justify-around gap-5 overflow-hidden p-10">
         <div className="flex h-screen flex-col justify-around gap-2">
           <input
-            className="h-10 w-80 rounded-md border-2"
+            className="h-10 w-80 rounded-md border-2 p-2"
             placeholder="Search for the users..."
             onChange={(e) => handleInputChange(e)}
           ></input>
